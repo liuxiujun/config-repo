@@ -1,7 +1,7 @@
 spring:
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://192.168.1.5:3306/ebuilding?useUnicode=true&characterEncoding=UTF-8&autoReconnect=true&failOverReadOnly=false&verifyServerCertificate=false&useSSL=false&serverTimezone=GMT%2B8
+    url: jdbc:mysql://192.168.1.5:3306/employees?useUnicode=true&characterEncoding=UTF-8&autoReconnect=true&failOverReadOnly=false&verifyServerCertificate=false&useSSL=false&serverTimezone=GMT%2B8
     username: root
     password: Aa123456
     initial-size: 1
@@ -21,7 +21,7 @@ spring:
     open-in-view: true
     show-sql: true
     hibernate:
-      ddl-auto: update
+      ddl-auto: validate
     database-platform: org.hibernate.dialect.MySQL5InnoDBDialect
     properties:
       hibernate:

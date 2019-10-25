@@ -3,7 +3,7 @@ spring:
     driver-class-name: com.mysql.cj.jdbc.Driver
     url: jdbc:mysql://192.168.1.5:3306/employees?useUnicode=true&characterEncoding=UTF-8&autoReconnect=true&failOverReadOnly=false&verifyServerCertificate=false&useSSL=false&serverTimezone=GMT%2B8
     username: root
-    password: Aa123456
+    password: '{cipher}AQA6Gxs5YL6pGCPchGAMi8bXDtTxKz79iRJRlp3NIhp2amm+BCP8ITdhl85BCQw/oU2ApJEuaGb/rQziIMS1HFObVv/T7ES5r/QZ8xvyKhLQMQEGcFejcdVIlX5BgpdVizv+LC9W5U+162qB0czVgEKyrkBk44iLjAw+VGh4Vk4HSPXgEzzcBqqr1LVZicGvnetC6zlYRpafRgi5Og1OzwvrbMSaV1xZWuvZLJJbUJmTV/K+5TnOQvq38UZXVMpx243iE2sUAqa77CVCg+SzIqVUIIp6OzN5SEm+XSHfBFa+xhsOjoDL/knu5d4sa+sSbEIb6pQxIeMHiia6q74K8BQppuKKh033Iwob0x4vU/Jz7k8dODEuayGDeHFXdiq7ElQ='
     initial-size: 1
     min-idle: 1
     max-active: 20

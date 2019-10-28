@@ -1,0 +1,21 @@
+spring:
+  cloud:
+    config:
+      enabled: true
+      fail-fast: true
+      username: user
+      password: secret
+      uri: config-server
+      name: ${spring.application.name}
+      profile: ${spring.profiles.active}
+      label: master
+    consul:
+      host: consul
+      port: 8500
+      discovery:
+        service-name: ${spring.application.name}
+  rabbitmq:
+    host: mq
+    port: 5672
+    username: user
+    password: password

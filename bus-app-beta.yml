@@ -1,4 +1,8 @@
 spring:
+  application:
+    name: bus-app
+  profiles:
+    active: beta
   cloud:
     config:
       enabled: true

@@ -1,7 +1,7 @@
 spring:
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://192.168.1.5:3306/employees?useUnicode=true&characterEncoding=UTF-8&autoReconnect=true&failOverReadOnly=false&verifyServerCertificate=false&useSSL=false&serverTimezone=GMT%2B8
+    url: jdbc:mysql://localhost:3306/employees?useUnicode=true&characterEncoding=UTF-8&autoReconnect=true&failOverReadOnly=false&verifyServerCertificate=false&useSSL=false&serverTimezone=GMT%2B8
     username: root
     password: '{cipher}AQB8Bq6xciIhxL7U0Sz0LXx2vG5tJk39m2zeK4wUux195tI7mshKxKBpsHIcalGG3CmPxZfBkIQokcsJMjkdK74JYwVtB1iSjdgyiL+9FuEItyF5MkJ5V+IrDjBcoQxHE04PIdTuvjTwX20us0EsZTvCl/XnioLr6Oci+IraENsy8XatzRzRdClAr8kUj6UcIPO+A3bjIzqPPtDQNqQhoOEpQngCsA5zFw+Mv1pC6Lkjwtw058ZSqPDHzzjFG6I+mkYKS8aKBed3S/qurG9T7EwMr4G7X9PeOLWrj4cCIA+WX5Bg3C16KKJ++lRgc5360cMSmqCSWKYLXYEe2EkMAU77E/7Jl8tNxvG2fne9XW9Ot7TBDgQoZkdlaiPDuM+6HsE='
     initial-size: 1

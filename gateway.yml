@@ -20,3 +20,8 @@ spring:
           filters:
             - StripPrefix=1
           uri: lb://bus-app
+        - predicates:
+            - Path=/pms/**
+          filters:
+            - StripPrefix=1
+          uri: lb://pms-app

@@ -7,7 +7,7 @@ spring:
             - Path=/bus/**
           filters:
             - StripPrefix=1
-          uri: http://127.0.0.1:8081
+          uri: lb://bus-app
 
 ---
 spring:
@@ -19,4 +19,4 @@ spring:
             - Path=/bus/**
           filters:
             - StripPrefix=1
-          uri: http://bus-app:8081
+          uri: lb://bus-app

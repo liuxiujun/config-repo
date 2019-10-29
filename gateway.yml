@@ -1,9 +1,22 @@
 spring:
+  profiles: dev
   cloud:
     gateway:
       routes:
         - predicates:
-            - Path=/emps/**
+            - Path=/bus/**
           filters:
             - StripPrefix=1
-          uri: http://localhost:8081
+          uri: http://127.0.0.1:8081
+
+---
+spring:
+  profiles: beta
+  cloud:
+    gateway:
+      routes:
+        - predicates:
+            - Path=/bus/**
+          filters:
+            - StripPrefix=1
+          uri: http://bus-app:8081
